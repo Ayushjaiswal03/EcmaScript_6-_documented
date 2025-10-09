@@ -54,3 +54,15 @@ if (nums2 % 2 === 0 && nums2 % 3 === 0) {
 }else {
     console.log("it is not")
 }
+
+//age for driving
+
+let umar = 17.9999;
+// if (umar >= 18){
+//     console.log("you can drive")
+// }else{
+//     console.log("you cannot");
+// }
+
+let ternary = (umar >= 18) ? "you can drive" : "you may not";
+console.log(ternary)
