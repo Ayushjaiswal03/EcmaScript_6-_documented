@@ -12,11 +12,27 @@ console.log("hello loops")
     
 // }
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-for(let i = 0; i < arr.length; i++) {
-    console.log(arr[i])
+// for(let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
 
+// }
+
+let obj = {
+    harry : 90,
+    ayush :80,
+    muut : 70,
+    bete: 82
 }
+
+// for (let a in obj){
+//     console.log(obj[a])
+// }
+let arr = [1, 2, 3, 4, 5]
+for (let a in arr){
+    console.log(arr[a])
+}
+
 
 
