@@ -44,3 +44,13 @@ switch (fruit) {
         console.log("Hi I am 3")
         break;         
 }
+
+//FIND A NUMBER THAT IS DIVISIBLE BY 2 and 3
+
+let nums2 = 12;
+
+if (nums2 % 2 === 0 && nums2 % 3 === 0) {
+    console.log(`${nums2} is divisible by 2 and 3`)
+}else {
+    console.log("it is not")
+}
