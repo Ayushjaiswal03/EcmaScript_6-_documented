@@ -18,30 +18,34 @@ console.log("CE");
 
 
 //if else....else if
-let agge = 18.6554;
-let age = Math.ceil(agge);
 
-if (age < 18) {
-    console.log("minor");
-     age;
-} else if(age > 18) {
-    console.log("too old");
-     console.log (age);
-}else {
-    console.log("perfect 18")
-}
 
-//switch
-switch(age && agge) {
-    case 1:
-        console.log("minor");
-    break;
-    case 2: 
-    console.log("major");
-    break;
-    default: 
-    console.log("perfect 18")
-}
+// if (age < 18) {
+//     console.log("minor");
+//      age;
+// } else if(age > 18) {
+//     console.log("too old");
+//      console.log (age);
+// }else {
+//     console.log("perfect 18")
+// }
+
+// //switch
+// switch(age && agge) {
+//     case 1:
+//         console.log("minor");
+//     break;
+//     case 2: 
+//     console.log("major");
+//     break;
+//     default: 
+//     console.log("perfect 18")
+// }
 
 
 //  console,log()
+let agge = 18.6554;
+let age = Math.ceil(agge);
+let Floor = Math.floor(agge)
+
+console.log("here it is", (Floor == 18 && age == 19) ? "age is equal" : "age is not equal");
