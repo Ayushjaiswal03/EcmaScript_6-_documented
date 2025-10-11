@@ -25,7 +25,8 @@ let a = num.splice(1, 3, 34);
 console.log(num, a);
 let arr3 = num.concat(arr);
 // let arr4 = num.join(arr)
-console.log(arr3)
+console.log(arr3);
+
 
 
 
