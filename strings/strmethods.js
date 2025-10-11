@@ -20,9 +20,9 @@ console.log("str methods")
 
 // console.log(fr.trim())
 
-let str = "hello";
-let set = new Set(str)
-console.log(set)
+let str = "hello how are you";
+// let set = new Set(str)
+// console.log(set)
 
 // for(let i in str){
 //     console.log(str.slice(str[str.length - 1]))
