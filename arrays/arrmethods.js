@@ -11,9 +11,7 @@ num.push("Apple", 21)
 
 num.unshift("guava", 69, 91);
 let t = num.shift()
-console.log(num, r, t);
-
-num
-
+let  y=  delete num[4];
+console.log(num, r, t, y);
 
 
