@@ -39,3 +39,6 @@ rl.question("tell me your age here ", (answer) => {
 })
 }
 askAge();
+
+//Q3
+const readline = require("readline")
