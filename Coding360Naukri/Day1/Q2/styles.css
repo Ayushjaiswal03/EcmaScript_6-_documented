@@ -68,7 +68,10 @@ input[type="password"] {
     cursor: pointer;
 }
 
-#btn:hover,
+#btn:hover{
+    background-color: blue;
+}
+
 #cancelbtn:hover {
     opacity: 0.9;
 }
