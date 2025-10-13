@@ -27,5 +27,15 @@ rl.question("tell me your age here ", (answer) => {
     }else{
         console.log("chutiye license laa")
     }
+
+    rl.question("Do you want to play again? (Yes/No) ", (response)=>{
+        if(response.toLowerCase() == "yes" || response.toLowerCase() == "y"){
+            askAge();
+        }else{
+            console.log("TAKE CARE , BYE BYE");
+            rl.close();
+        }
+    })
 })
 }
+askAge();
