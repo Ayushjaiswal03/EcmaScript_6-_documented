@@ -23,3 +23,33 @@ h1 {
     margin-bottom: 30px;
 }
 
+.btn button {
+    font-size: 2rem;
+    background-color: #eee;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+#res {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#scr {
+    font-size: 1rem;
+    color: #333;
+}
+
+#user-score,
+#computer-score {
+  font-weight: bold;
+}
