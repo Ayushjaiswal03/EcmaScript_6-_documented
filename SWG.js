@@ -12,5 +12,24 @@ rl.question("Let's play Snake, Water and Gun! you choose = ", (response) => {
 
     const compChoice = arr[randomIndex];
 
-    if (a == compChoice) return console.log("the game is tied");
+    if (a == compChoice) {
+        return console.log("the game is tied");
+    }
+
+    if((a == "S" && compChoice == "W") ||
+        (a == "W" && compChoice == "G") ||
+        (a == "G" && compChoice == "S")
+){
+    return console.log("You won, handsome!")
+}else {
+    return console.log("MAC bro won!")
+}
+    
+    // else if(a == "S" && compChoice == "G"){
+    //     console.log("Mac won");
+    // } else if(a == "S" && compChoice == "W"){
+    //     console.log("you won")
+    // }else if(a == "W" && compChoice == "S"){
+    //     console.log("")
+    // }
 })
