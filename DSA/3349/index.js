@@ -36,4 +36,32 @@
 // 2 <= nums.length <= 100
 // 1 < 2 * k <= nums.length
 // -1000 <= nums[i] <= 1000
+
+//Solving through Brute Force using Loops 
+
+var hasIncreasingSubarrays  = function(nums, k) {
+    const isIncreasing = (start) => {
+        for(let i = start; i < start + k -1; i++){
+            if(nums[i] >= nums[i + 1]) return false;
+        }
+        return true;
+    }
+
+    for(let a = 0; a < nums.length -2 * k; a++) {
+        if(isIncreasing(a) && isIncreasing(a + k)) return true;
+    }
+}
  
+//Sliding Window
+
+
+
+
+
+
+
+
+
+
+
+
