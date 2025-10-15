@@ -1,0 +1,50 @@
+Which tag is used for the largest heading?
+<h1> - The < h1 > tag represents the largest heading in HTML and is typically used for main titles or important headings on a webpage.
+
+What is the HTML tag under which one can write the JavaScript code?
+<script>
+
+Which HTML element is used to define navigation links?
+<nav> - The < nav > element is specifically designed to group navigation links, making it easier to create accessible and semantic web navigation.
+
+Font properties are automatically inherited by the children in HTML and CSS.
+False - es, in HTML and CSS, font properties like font-family, font-size, and font-style are automatically inherited by child elements unless explicitly overridden.
+
+
+
+
+What will the following JavaScript code print in the console?
+
+class Vehicle{
+constructor ( doors, wheels){
+    this.doors = doors;
+    this.wheels = wheels;
+}
+}
+class bus extends Vehicle{
+    constructor(windows){
+        this.windows = windows;
+    }
+}
+var b = new bus(10);
+console.log(bus.windows);
+
+=> must call super () then execute here is the corrected version
+class Vehicle{
+    constructor (doors, wheels){
+        this.doors = doors;
+        thid.wheels = wheels;
+    }
+}
+class bus extends Vehicle{
+    constructor(doors, wheels, windows){
+        super(doors, wheels);
+        this.windows = windows;
+    }
+}
+
+var b = new bus(2, 4, 10);
+console.log(bus.windows);
+
+output will be 10
+
