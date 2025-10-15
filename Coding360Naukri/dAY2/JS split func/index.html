@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript split() Function Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>JavaScript split() Function</h2>
+        <input type="text" id="inputString" placeholder="Enter string" />
+        <input type="text" id="delimiter" placeholder="Enter delimiter" />
+        <button id="split-btn" onclick="splitString()">Split</button>
+        <div class="output" id="output"></div>
+    </div>
+
+    <script>
+        function splitString() {
+            // write your code here.
+            let ip = document.getElementById("inputString").value;
+            let dm = document.getElementById("delimiter").value;
+
+            let result = ip.split(dm);
+            let json = JSON.stringify(result);
+            document.getElementById("output").textContent = json;
+            return
+
+        }
+    </script>
+</body>
+</html>
