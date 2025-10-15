@@ -24,7 +24,7 @@ const play = () => {
         ){
             return console.log("You won, handsome!")
         }else {
-            return console.log("MAC bro won!")
+            return console.log("MAC won, bro!")
         }
         // else if(a == "S" && compChoice == "G"){
         //     console.log("Mac won");
