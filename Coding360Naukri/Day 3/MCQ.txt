@@ -1,0 +1,36 @@
+What does document.getElementById() do in JavaScript?
+
+=> Retrieves an element by ID
+(The document.getElementById() method is used to retrieve an HTML element based on its unique ID attribute.)
+
+
+In JavaScript, an object is given as -
+
+var obj = {
+    key1: value1,
+    key2: value2
+}
+What will be the output when you enter "obj.key3" on the console?
+
+=> undefined
+
+
+Which is the correct CSS syntax written inside the style tag?
+
+body { font-size: 20px; }
+(A CSS Syntax rule consists of a selector, property, and its value. The selector points to the HTML element where the CSS style is to be applied. The CSS property is separated by semicolons. It is a combination of the selector name followed by the property: value pair that is defined for the specific selector.)
+
+
+Which CSS property controls the text size?
+
+=> font-size
+The CSS property that controls the text size is font-size. You can use the font-size property to specify the size of text within an element. The font-size property allows you to adjust the size of the text in your HTML elements, making it larger or smaller as needed.
+
+
+What will be the output of the following code?
+
+let numbers = [-23,12, -17, 19, -20, 0, 1,-12, -5, 5, 20];
+let even = numbers.filter(value => value%2==0);
+console.log(even);
+
+=> [12, -20, 0, -12, 20]
