@@ -1,0 +1,13 @@
+DOM COLLECTION
+
+They are read only
+they are iterable using for...of loops
+
+
+
+Sibling
+<head> and <body>
+left        right       Sibling 
+same parent wale nodes ko Sibling
+common parent <html>
+
