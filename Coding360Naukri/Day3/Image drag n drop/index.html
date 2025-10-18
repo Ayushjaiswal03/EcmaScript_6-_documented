@@ -26,7 +26,17 @@
             <h3>Add a new Image</h3>
             <form class="addImageForm" onsubmit="addNewImage(event)">
                 <label for="imgAddressInput">Enter the image address here</label>
+                <input type="text" id="imgAddressInput" name="imageUrl" placeholder="Copy and paste here image address" required />
+
+                <label for="imgNameInput">Name the Image</label>
+                <input type="text" id="imgNameInput" name="imageName" placeholder="Name the Image" required />
+
+                <button type="submit">Add Image</button>
             </form>
+
+            <div class="previewArea">
+                <button onclick="previewLastAddedImage()">Preview Last One</button>
+            </div>
         </aside>
     </main>
 </body>
