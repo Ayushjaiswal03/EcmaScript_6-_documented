@@ -13,3 +13,8 @@ function test(a, b) {
 test( 2 , 3 , 4);
 
 => 5
+
+
+Which of the following are the drag and drop events in JavaScript?
+=> both drop and dragstart
+The drag and drop events in JavaScript are: 1.dragstart 2.drag 3.dragenter 4.dragleave 5.dragover 6.drop 7.dragend
