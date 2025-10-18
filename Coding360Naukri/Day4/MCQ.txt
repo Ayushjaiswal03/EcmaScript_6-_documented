@@ -18,3 +18,11 @@ test( 2 , 3 , 4);
 Which of the following are the drag and drop events in JavaScript?
 => both drop and dragstart
 The drag and drop events in JavaScript are: 1.dragstart 2.drag 3.dragenter 4.dragleave 5.dragover 6.drop 7.dragend
+
+In HTML, tags that include both start and end tag are called -
+=> Container tag
+In HTML, tags that include both a start tag and an end tag are called "paired" or "container" tags. These tags are used to enclose content within them, and the content is affected or controlled by the opening and closing tags.
+
+Which of the following CSS properties controls the spacing between lines of text?
+=> line height
+The line-height property controls the amount of space between lines of text.
