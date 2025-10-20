@@ -1,0 +1,45 @@
+body{
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    margin-top: 10px;
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: inside;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul > span{
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.item {
+    background-color: bisque;
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* margin: 5px; */
+}
+
+
