@@ -1,0 +1,61 @@
+Which HTML tag is used for links?
+
+=> <a>
+The < a > tag is used to create hyperlinks in HTML, which allows users to navigate between different pages or sections.
+
+
+
+Default value of border style in CSS.
+
+=> There is no default value of border-style. One needs to mention the style on their own else border will not show
+
+
+
+
+Guess the output of the following JavaScript code :
+
+class Base {
+
+  show() {
+
+    console.log("Base class show() method called");
+
+  }
+}
+
+class Derived extends Base {
+
+  show() {
+
+    console.log("Derived class show() method called");
+  }
+}
+
+let b = new Derived();
+b.show();
+
+=> Derived class show() method called
+
+
+
+
+Choose the correct option
+
+var a = 3  ; 
+switch(a){
+  case 1 : console.log("1");
+  case 2 : console.log("2");
+  case 3 : console.log("3");
+  case 4 : console.log("4");
+
+  default : console.log("None");
+}
+
+=> 3 , 4 , None
+break statement is missing , so all the statements below 3 will run
+
+
+
+If the size of the image is small what to use?
+
+=> object-fit : cover ;
