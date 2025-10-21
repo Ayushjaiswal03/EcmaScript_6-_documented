@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.form-builder {
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #ffe6aa;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-builder h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+#formName, #fieldType, #fieldLabel {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+#addField, #saveForm {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#addField:hover, #saveForm:hover {
+  background-color: #00a4b8;
+}
+
+#addField:active, #saveForm:active {
+  transform: translateY(1px);
+}
+
+#fieldsDisplay {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.current-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  background-color: #e0f7fa;
+  border-left: 4px solid #00bcd4;
+  border-radius: 4px;
+}
+
+.saved-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ddd;
+}
+
+.saved-form-title {
+  font-size: 1.2rem;
+  color: #0078d7;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0078d7;
+  font-weight: 600;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.preview-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.form-field-checkbox, .form-field-radio {
+  display: flex;
+  align-items: center;
+}
+
+.form-field-checkbox input[type="checkbox"],
+.form-field-radio input[type="radio"] {
+  margin-right: 8px;
+}
