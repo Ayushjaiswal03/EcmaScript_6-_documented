@@ -1,0 +1,5 @@
+How do you include CSS in an HTML document?
+
+=> <link rel="stylesheet">
+The < link rel="stylesheet" > tag is used to link an external CSS file to an HTML document, allowing you to apply styles defined in the CSS file to the HTML elements.
+
