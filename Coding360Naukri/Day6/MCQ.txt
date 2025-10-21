@@ -3,3 +3,26 @@ How do you include CSS in an HTML document?
 => <link rel="stylesheet">
 The < link rel="stylesheet" > tag is used to link an external CSS file to an HTML document, allowing you to apply styles defined in the CSS file to the HTML elements.
 
+
+
+What will be printed on the console from the following JavaScript code -
+
+var a = 10/0;
+console.log(a);
+
+=> Infinity
+
+
+What is the purpose of the third parameter in addEventListener when passed as an object?
+
+=> To configure additional options like once and passive.
+When an object is passed as the third parameter, it allows specifying options such as capture (for the propagation phase), once (to execute the listener only once), and passive (to indicate the listener will not call preventDefault()).
+
+
+
+What is the default behavior of the addEventListener method if the useCapture parameter is not specified?
+
+=> It attaches the event listener to the bubbling phase.
+By default, the useCapture parameter is false, meaning the listener is attached to the bubbling phase, where events propagate from the target to the top of the DOM tree.
+
+
