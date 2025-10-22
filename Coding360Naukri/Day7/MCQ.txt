@@ -2,3 +2,17 @@ How do you add an item to an array in JavaScript?
 
 => array.push(item)
 The push() method adds one or more elements to the end of an array in JavaScript.
+
+
+
+What will the function 'test' return upon execution of these JavaScript statements?
+
+function test(a, b) {
+    console.log( a + b );
+}
+test( 2 , 3 , 4);
+
+=> 5
+
+
+
