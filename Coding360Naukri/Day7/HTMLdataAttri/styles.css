@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    height: 450px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+aside {
+    height: 450px;
+    border: 2px solid black;
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main {
+    height: 450px;
+    border: 2px solid black;
+    flex: 0.7;
+    line-height: 25px;
+    text-align: center;
+}
+
+main p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+aside div {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ddd;
+}
