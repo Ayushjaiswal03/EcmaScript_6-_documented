@@ -16,3 +16,11 @@ test( 2 , 3 , 4);
 
 
 
+
+Which of these statement(s) is/are incorrect about setTimeout() in JavaScript?
+
+=> In setTimeout(func) the default time set is 1ms.
+Explanation: in setTimeout, if the time interval is not defined then it will just wait for other tasks to finish and then it will execute the setTimeout function.
+
+
+
