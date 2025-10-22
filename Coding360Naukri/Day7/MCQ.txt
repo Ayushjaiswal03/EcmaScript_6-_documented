@@ -45,3 +45,12 @@ var person = new Person("James");
 
 
 
+Passport-JWT stores User object in request headers.
+
+=> False
+Passport-JWT does not store the User object in request headers. Instead, 
+it uses JSON Web Tokens (JWT) to authenticate requests, which contain a token string that can be used to verify the user's identity. 
+The token is usually included in the Authorization header, while the User object is typically retrieved from the token on the server side.
+
+
+
