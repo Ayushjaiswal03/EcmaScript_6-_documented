@@ -24,3 +24,24 @@ Explanation: in setTimeout, if the time interval is not defined then it will jus
 
 
 
+
+
+Which of the following statements will produce an error with the following JavaScript code?
+
+class Person {
+constructor(name) {
+    this.name = name;
+}
+get name() {
+    return this._name;
+}
+set name(value) {
+    this._name = value;
+}
+}
+var person = new Person("James");
+
+=> person.name()
+
+
+
