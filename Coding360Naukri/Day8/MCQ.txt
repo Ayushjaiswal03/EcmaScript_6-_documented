@@ -1,0 +1,4 @@
+How do you write a single-line comment in JavaScript?
+
+=>// Comment
+Single-line comments in JavaScript start with //. Everything after // on the same line is considered a comment and is not executed.
