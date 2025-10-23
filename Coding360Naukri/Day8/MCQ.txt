@@ -10,3 +10,21 @@ How do you access the data after a promise is fulfilled in JavaScript?
 
 => Using the .then()
 .then() can be used to access the data returned by the promise object.
+
+
+
+Which of these lines will give an error in HTML & CSS?
+
+1- function foo(){
+2-    a = 5;
+3-    var b =10;
+}
+foo();
+4- console.log(a);
+5- console.log(b);
+
+=> 5
+In js, a variable is first declared and then it is initialized. 
+The variable ‘a’ will be declared automatically and it will be hoisted to the top. 
+All the variables that are undeclared are global variables. So, when we console.log(a) there will be no error. 
+However, variable b is inside the scope of the function foo and calling it outside the function will give a ‘Reference Error’.
