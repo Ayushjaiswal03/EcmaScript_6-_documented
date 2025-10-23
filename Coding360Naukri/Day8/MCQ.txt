@@ -35,3 +35,9 @@ In which lifecycle method should you unsubscribe from your real time updates lis
 => componentWillUnmount
 It is called just before unmounting the component and therefore any cleanup is done in this method
 
+
+
+What is rem in relative units in HTML and CSS?
+
+=> Font size of the root element
+
