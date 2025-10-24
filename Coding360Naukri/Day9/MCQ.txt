@@ -65,3 +65,32 @@ What does JWT stands for?
 
 => JSON Web Token
 JWT stands for "JSON Web Token." It is a compact, URL-safe token format used for securely transmitting information between parties as a JSON object.
+
+
+
+
+Problem statement
+Guess the output of the following JavaScript code :
+
+
+
+class Base {
+
+   show() {
+      console.log("Base class show() method called");
+  }
+
+}
+
+class Derived extends Base {
+
+   show() {
+      console.log("Derived class show() method called");
+}
+
+}
+
+let b = new Derived();
+b.show();
+
+=> Derived class show() method called
