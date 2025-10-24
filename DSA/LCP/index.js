@@ -87,3 +87,6 @@
 // Stopping Condition 2 (Mismatch): If the character at strs[j][i] is different from strs[0][i], you've found the LCP.
 
 // Return: If you break the loop for any reason, the LCP is the substring of the first string up to the current index i.
+
+// => 
+    
