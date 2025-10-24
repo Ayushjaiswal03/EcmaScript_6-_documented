@@ -39,3 +39,20 @@ Q. Predict the output of following JavaScript code
   }
 
   => Rendered Mounted Rendered
+Initial Render
+
+render() runs first to paint the UI.
+
+componentDidMount()
+
+Called after the first render.
+
+Safe place to trigger side effects like setState().
+
+State Change Triggers Re-render
+
+setState() updates the state.
+
+React schedules a re-render.
+
+render() runs again with the new state.
