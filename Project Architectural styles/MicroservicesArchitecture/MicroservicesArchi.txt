@@ -1,0 +1,23 @@
+Each service is isolated, often with its own repo. Ideal for distributed teams and scalable systems.
+
+
+
+user-service/
+├── src/
+├── Dockerfile
+├── README.md
+
+order-service/
+├── src/
+├── Dockerfile
+├── README.md
+
+gateway/
+├── src/
+├── nginx.conf
+└── README.md
+
+
+🧠 Tools: Docker, Kubernetes, gRPC, API Gateway 
+✅ Benefits: Scalability, fault isolation, language flexibility 
+⚠️ Challenges: Complex deployment, inter-service communication
