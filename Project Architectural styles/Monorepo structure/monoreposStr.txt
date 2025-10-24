@@ -1,0 +1,20 @@
+A monorepo houses multiple projects (frontend, backend, shared libraries) in a single repository. 
+Ideal for large teams with shared tooling and tight integration.
+
+monorepo/
+├── apps/                      # Individual applications
+│   ├── web/                   # React/Next.js frontend
+│   └── api/                   # Node.js/Express backend
+│
+├── packages/                 # Shared libraries/utilities
+│   ├── ui/                   # Design system components
+│   └── utils/                # Common helper functions
+│
+├── .github/                  # CI/CD workflows
+├── .env                      # Global environment config
+├── turbo.json / nx.json      # Monorepo orchestration config (Turborepo, Nx)
+└── README.md
+
+🧠 Tools: Turborepo, Nx, Lerna, Yarn Workspaces 
+✅ Benefits: Shared dependencies, atomic commits, unified CI/CD 
+⚠️ Challenges: Requires tooling discipline and clear ownership boundaries
