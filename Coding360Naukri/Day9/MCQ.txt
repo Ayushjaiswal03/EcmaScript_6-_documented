@@ -72,8 +72,6 @@ JWT stands for "JSON Web Token." It is a compact, URL-safe token format used for
 Problem statement
 Guess the output of the following JavaScript code :
 
-
-
 class Base {
 
    show() {

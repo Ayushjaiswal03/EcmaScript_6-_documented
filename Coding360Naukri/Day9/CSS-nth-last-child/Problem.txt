@@ -1,0 +1,44 @@
+CSS :nth-last-child()
+Easy
+40/40
+Average time to solve is 20m
+CSS styling
+Problem statement
+
+CSS :nth-last-child()
+
+The CSS :nth-last-child(n) pseudo-class selects elements based on their position from the end of their parent, where n is a pattern or index.
+
+Initial CSS for this problem is already written for you. Your task in this problem is to apply styling to the last .box element using nth-last-child pseudo class
+
+Problem Statement:
+
+S. no	Problem
+1	target the last .box element and apply the styles in the instruction
+INSTRUCTIONS
+
+CSS Selector	CSS Style
+.box:nth-last-child(1)	background-color: #3498db
+
+
+
+- Final
+
+
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers!
