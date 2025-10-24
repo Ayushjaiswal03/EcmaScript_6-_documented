@@ -5,3 +5,15 @@ In JavaScript, you create a function using the function keyword, followed by the
 
 
 
+Consider following JavaScript code snippet -
+
+var student = {
+    firstName: "jonathan",
+    lastName: "doe"
+}
+
+delete student.firstName;
+console.log(student.firstName+ " "+ student.lastName);
+What is the expected output?
+
+=> undefined doe
