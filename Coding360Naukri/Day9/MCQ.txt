@@ -17,3 +17,25 @@ console.log(student.firstName+ " "+ student.lastName);
 What is the expected output?
 
 => undefined doe
+
+
+
+Q. Predict the output of following JavaScript code
+
+  state={
+     value:1
+  }
+  componentDidMount() {
+     console.log("Mounted")
+     this.setState({value:2})  
+  }
+  render() {
+     console.log("Rendered")
+     return (
+        <div>
+          Hi
+        <div/>
+     )
+  }
+
+  => Rendered Mounted Rendered
