@@ -1,0 +1,19 @@
+Single repo, but with clear module boundaries. Great for startups or teams transitioning to microservices.
+
+
+app/
+├── modules/
+│   ├── auth/
+│   ├── billing/
+│   └── dashboard/
+├── shared/
+│   ├── utils/
+│   └── middleware/
+├── server.js
+└── README.md
+
+
+
+Tools: Express, NestJS, Django 
+✅ Benefits: Easier to test, deploy, and refactor 
+⚠️ Challenges: Requires discipline to avoid tight coupling
