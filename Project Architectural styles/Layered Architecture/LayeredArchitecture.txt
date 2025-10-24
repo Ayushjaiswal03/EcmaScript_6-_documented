@@ -1,0 +1,15 @@
+Classic structure with separation of concerns: presentation, business logic, and data access.
+
+
+project/
+├── presentation/             # UI layer
+├── application/              # Business logic
+├── domain/                   # Core models and rules
+├── infrastructure/           # DB, external APIs
+└── README.md
+
+
+
+🧠 Tools: Clean Architecture, DDD, Hexagonal 
+✅ Benefits: Testability, scalability, clear boundaries 
+⚠️ Challenges: Steeper learning curve, overkill for small apps
