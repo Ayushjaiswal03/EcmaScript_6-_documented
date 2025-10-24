@@ -1,0 +1,7 @@
+How do you create a function in JavaScript?
+
+=> function myFunction() {}
+In JavaScript, you create a function using the function keyword, followed by the function name and parentheses. The code inside the curly braces is the function's body.
+
+
+
