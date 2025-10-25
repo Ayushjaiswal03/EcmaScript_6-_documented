@@ -64,3 +64,30 @@ function displayNotes() {
   });
 }
 
+// ---  Delete a single note ---
+function deleteNote(id) {
+  let notes = JSON.parse(localStorage.getItem("notes")) || [];
+  notes = notes.filter(note => note.id !== id);
+  localStorage.setItem("notes", JSON.stringify(notes));
+  displayNotes();
+}
+
+// ---  Clear all notes at once ---
+function clearAllNotes() {
+  if (confirm("Are you sure you want to delete all notes?")) {
+    localStorage.removeItem("notes");
+    displayNotes();
+  }
+}
+
+// ---  Search functionality ---
+function searchNotes() {
+  const searchValue = document.getElementById("search").value.toLowerCase();
+  const notes = document.querySelectorAll(".note");
+
+  notes.forEach(note => {
+    const title = note.querySelector(".note-title").textContent.toLowerCase();
+    const content = note.querySelector(".note-content").textContent.toLowerCase();
+    note.style.display = (title.includes(searchValue) || content.includes(searchValue)) ? "block" : "none";
+  });
+}
