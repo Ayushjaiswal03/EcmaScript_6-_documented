@@ -2,3 +2,11 @@ Q- How do you change the font size in CSS?
 
 => font-size
 The font-size property in CSS is used to change the size of the text within an element.
+
+
+
+
+Q- Which HTML element is used to define navigation links?
+
+=> <nav>
+The < nav > element is specifically designed to group navigation links, making it easier to create accessible and semantic web navigation.
