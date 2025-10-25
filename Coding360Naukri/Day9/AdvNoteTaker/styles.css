@@ -54,3 +54,46 @@ button:hover {
     margin: 10px 0;
     
 }
+
+.note-checkbox {
+    margin-right: 10px;
+}
+
+.note-title, .note-content {
+    margin: 0;
+    cursor: pointer;
+    position: relative; /* Allows positioning of pseudo-elements relative to these elements */
+ 
+}
+
+.note-title::before, .note-content::before {
+    content: ''; /* Start with empty content */
+    display: none; /* Hide it by default */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.note-title:hover, .note-content:hover {
+    visibility: hidden; /* Makes the element 'invisible' but it still takes up space */
+}
+
+.note-title:hover::before, .note-content:hover::before {
+    content: 'Edit'; /* Display "Edit" on hover */
+    display: block;
+    visibility: visible;
+    background-color: rgb(71, 69, 69);
+    color:white
+}
+
+
+hr {
+    width: 90%;
+    margin: 10px 0;
+    border-top: 1px solid #2a2727;
+}
+#wrap-it{
+        word-wrap: break-word;
+    }
