@@ -12,8 +12,9 @@ let btn = document.getElementById('btn');
 
 
 let x = function(e) {
+    console.log(e.target)
     // var btn = e.target
-    alert("Hello world!")
+    // alert("Hello world!")
 };
 
 let y = function(e) {
