@@ -39,3 +39,27 @@ JavaScript tries to convert a and true to comparable types.
 true becomes 1 when coerced to a number.
 
 So a == true becomes 1 == 1, which is true.
+
+
+
+
+Q- If the below two properties are applied on a flex item -
+
+width: 500px;
+flex-basis: 250px;
+
+
+What will be its width?
+=> 250px
+The "width" property gets overridden by "flex-basis" property. 
+So, "flex-basis: 250px;" gets applied and the width of the element becomes "250px".
+
+Why?
+In a flex container, flex-basis overrides width as the starting point for layout calculations.
+
+So even though width: 500px is declared, the browser uses flex-basis: 250px to size the item initially.
+
+🔍 Exceptions
+If flex-basis is set to auto, then width is used.
+
+If the item has flex-grow or flex-shrink, the final width may change based on available space.
