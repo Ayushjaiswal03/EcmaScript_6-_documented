@@ -8,3 +8,13 @@ The font-family property in CSS is used to specify the font family for the text 
 Q- Which of the following 'for' loop(s) will print the keys of an object 'obj' containing 'n' properties in JavaScript?
 
 => for(var i in obj) { console.log(i) }
+
+
+
+Q- Which is the correct CSS syntax written inside the style tag?
+
+=> body { font-size: 20px; }
+A CSS Syntax rule consists of a selector, property, and its value. 
+The selector points to the HTML element where the CSS style is to be applied. 
+The CSS property is separated by semicolons. 
+It is a combination of the selector name followed by the property: value pair that is defined for the specific selector.
