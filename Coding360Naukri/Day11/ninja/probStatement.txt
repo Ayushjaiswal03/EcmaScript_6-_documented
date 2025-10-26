@@ -1,0 +1,56 @@
+BookShelf - Part 4
+Ninja
+200/200
+Average time to solve is 90m
+Static HTML
+Structured HTML
+JS DOM & events
+Problem statement
+
+BookShelf - Part 4
+
+Unleash Your Creativity , Develop a cutting-edge bookshelf app that transforms digital reading, blending elegant design with an intuitive interface for a seamless literary journey.
+
+Welcome, developers! Your challenge is to design a groundbreaking bookshelf app that revolutionizes the way readers interact with their digital library. This app should provide an immersive and intuitive platform for users to easily manage, explore, and enjoy their book collection. The design must be elegant and modern, meeting the highest standards of contemporary user experience. Ensure the app is adaptable, offering a smooth and consistent interface across different devices and screen sizes. Your objective is to create an app that not only organizes books but also enriches the reading experience, sparking a deeper love for literature and enhancing reader engagement.
+
+
+Task for students
+
+Must to have
+Should have an input with type as text and id as "bookName".
+Tag < ul> should have an id as "bookList".
+The button with content "Add Book" when clicked should trigger a function named "addBook".
+Functionality tested
+addBook(): This function will retrieve the value from the input field (book name), add the book to the books array (with properties name and read (read property should be false by default)), and then call renderBooks() to update the display. After adding, the input field should be cleared
+renderBooks(): This function will render the books in the books array to the bookList element.
+const li = document.createElement('li'); use this for dynamic renderation of books.
+On Toggle the book gets a class of read and on another toggle the class vanishes , it should appear of the li tag which was dynamically being created.
+There should be a toggleRead function which should when we click a book (li which was being dynamically rendered)
+The toggleRead function should be reponsible for creation of a class named "read" depending on the book.read
+The read class of the list should have a background of green , to make sure the selected list becomes green on toggle.
+Each book should have a delete button which will call the function named deleteBook() function (Hint: You need to implement the delete functionality and ensure that the index argument corresponds to the book's position in the books array)
+The application should save and fetch books from the browser's local storage.
+When books are added or removed, the books array should be updated in the local storage.
+On page load, the application should load books from the local storage.
+The local storage name should be "books".
+
+UI reference
+Use the given provided code and try to mirror the UI.
+
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers!
