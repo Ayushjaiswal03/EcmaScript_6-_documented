@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callbacks</title>
+</head>
+<body>
+    
+
+    <!-- <script src="">     // f you use src="", the browser tries to load an external file from an empty path — which fails. -->
+    <script>                         //When src is present, the browser ignores the inline code inside the <script> tag.
+    function loadScript (url, callback) {      //function loadScript(url, callback): Defines a reusable function that loads a JavaScript file dynamically.
+        let script = document.createElement('script');  //document.createElement('script'): Creates a new <script> tag in memory.
+        script.src = url;       //script.src = url: Sets the source of the script to the provided URL.
+        script.onload = function() {
+            console.log("Loaded script with SRC: " + url);
+        }
+        document.body.appendChild(script);  //document.body.appendChild(script): Injects the script into the DOM as a child of <body>, making it run.
+        }
+
+    // loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js", () => {
+    //  return hello();
+    // })
+    loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js", hello())
+
+    function hello () {
+        alert("Hello");
+    }
+
+    function goodMorning () {
+        alert("Hello, good morning");
+    }
+    </script>
+</body>
+</html>
