@@ -1,0 +1,4 @@
+Q- What property is used to change the font family in CSS?
+
+=> font-family
+The font-family property in CSS is used to specify the font family for the text in an element.
