@@ -39,3 +39,11 @@ Q- In JavaScript, which keyword is used to create a getter method in class?
 => get
 In JavaScript, the get keyword is used to create a getter method in a class.
 
+
+
+
+Q-  Q. Which of the following components of Redux describes how should state be changed?
+
+=> Reducer
+Actions only describe what happened, but don't describe how the application's state changes. 
+Reducer specifies how the application's state changes in response to actions sent to the store.
