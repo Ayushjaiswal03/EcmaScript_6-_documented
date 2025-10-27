@@ -39,3 +39,23 @@ let car = cars1[0];
 
 //Arrays are special type of objects
 
+// -------------------------------Array Properties and methods----------------------------------------------------
+
+
+const cars2 = ["Saab", "Volvo", "BMW"];
+
+//THE LENGTH PROPERTY
+let length = cars2.length;
+// console.log(length);
+
+
+//ACCESSING THE FIRST ELEMENT OF THE ARRAY
+let first = cars2[0];
+// console.log(first);
+
+
+//ACCESSING THE LAST ELEMENT
+let last = cars2[cars2.length - 1]
+// console.log(last);
+
+
