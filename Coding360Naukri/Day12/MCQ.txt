@@ -3,3 +3,16 @@ Q- How do you write an if statement in JavaScript?
 => if (condition) {}
 An if statement in JavaScript is written with the if keyword, followed by a condition in parentheses. 
 If the condition is true, the code inside the curly braces is executed.
+
+
+
+
+Q- Choose the appropriate option that defines the purpose of the title tag in HTML.
+
+The title tag -
+
+=> defines a title in the browser toolbar
+provides a title for the page when it is added to favorites
+displays a title for the page in search-engine results
+
+The title tag in HTML serves multiple purposes, including defining a title in the browser toolbar, providing a title for the page when added to favorites, and displaying a title for the page in search-engine results.
