@@ -1,0 +1,5 @@
+Q- How do you write an if statement in JavaScript?
+
+=> if (condition) {}
+An if statement in JavaScript is written with the if keyword, followed by a condition in parentheses. 
+If the condition is true, the code inside the curly braces is executed.
