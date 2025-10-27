@@ -17,3 +17,21 @@ displays a title for the page in search-engine results
 
 The title tag in HTML serves multiple purposes, including defining a title in the browser toolbar, 
 providing a title for the page when added to favorites, and displaying a title for the page in search-engine results.
+
+
+
+
+Q- What will the below set of JavaScript lines print on the browser console?
+
+ function bike() {
+  console.log(this.name);
+ }
+ var name = "Ninja";
+ bike();
+
+ => Ninja
+
+
+
+
+Q- 
