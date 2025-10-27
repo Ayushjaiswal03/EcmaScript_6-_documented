@@ -34,4 +34,8 @@ Q- What will the below set of JavaScript lines print on the browser console?
 
 
 
-Q- 
+Q- In JavaScript, which keyword is used to create a getter method in class?
+
+=> get
+In JavaScript, the get keyword is used to create a getter method in a class.
+
