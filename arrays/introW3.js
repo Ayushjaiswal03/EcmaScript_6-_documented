@@ -58,4 +58,25 @@ let first = cars2[0];
 let last = cars2[cars2.length - 1]
 // console.log(last);
 
+//LOOPING ARRAY ELEMENTS
 
+//1 ------
+for(let i = 0; i < cars2.length; i++) {
+    //console.log("Looping through " + cars2[i]);    
+    //console.log(i); => gives index of the element
+
+}
+
+//2 ------
+for (let car of cars2) {
+    //console.log(car);   
+    // loops through the value at each index
+}
+
+//3 -------
+function myFunction(value) {
+    console.log(opt)
+}
+
+let opt = cars2.forEach(myFunction());
+// console.log(opt)
