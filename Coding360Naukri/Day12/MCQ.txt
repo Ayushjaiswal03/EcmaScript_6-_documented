@@ -15,4 +15,5 @@ The title tag -
 provides a title for the page when it is added to favorites
 displays a title for the page in search-engine results
 
-The title tag in HTML serves multiple purposes, including defining a title in the browser toolbar, providing a title for the page when added to favorites, and displaying a title for the page in search-engine results.
+The title tag in HTML serves multiple purposes, including defining a title in the browser toolbar, 
+providing a title for the page when added to favorites, and displaying a title for the page in search-engine results.
