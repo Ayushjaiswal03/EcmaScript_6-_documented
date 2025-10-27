@@ -18,3 +18,12 @@ A CSS Syntax rule consists of a selector, property, and its value.
 The selector points to the HTML element where the CSS style is to be applied. 
 The CSS property is separated by semicolons. 
 It is a combination of the selector name followed by the property: value pair that is defined for the specific selector.
+
+
+Q- Which of the method will run a function 'abc' after 5 seconds?
+
+=> window.setTimeout(abc, 5000);
+
+
+
+Q- 
