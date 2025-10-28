@@ -13,3 +13,9 @@ Q- Which of the following options can be used to create a list with filled circl
 Since it's an unordered list, we use the <ul> tag; for the filled circle we can set the type attribute of the <ul> tag as a disc.
 
 
+
+
+Q- What is the correct syntax for writing ‘doctype’ in HTML5?
+
+=> All of the above
+doctype declaration is case insensitive.
