@@ -51,5 +51,36 @@ var twoSum = function(nums, target) {
 
 var twoSum = function(nums, target) {
     const arr = nums.map((val, idx) => [val, idx])             //The map() method creates a new array by performing a function on each array element.
+                                                            //   nums.map(...): The map function iterates over every element in the nums array and applies a function (the callback) to it. It always returns a new array of the same length.
 
-}
+                                                            //     (val, idx) => ...: This is the callback function, which takes two arguments for every element in the array:
+
+                                                            //     val: The current value of the element (e.g., 5, 10, 2).
+
+                                                            //     idx: The current index of the element (e.g., 0, 1, 2).
+
+                                                            //     [val, idx]: This is the core of the transformation. For every element, the function creates and returns a new array (a pair) where:
+
+                                                            //     The first element ([0]) is the original value (val).
+
+                                                            //     The second element ([1]) is the original index (idx).
+                                                            //     
+   
+                                                            
+    arr.sort((a, b) => a[0] - b[0]);
+    let left = 0, right = arr.length - 1;
+
+    while (left < right) {
+        const sum = arr[left][0] + arr[right][0];
+
+        if (sum === target) {
+            return [arr[left][1], arr[right][2]];
+        } else if (sum < target) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+};
+
+console.log(twoSum(nums, target));
