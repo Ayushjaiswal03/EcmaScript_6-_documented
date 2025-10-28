@@ -1,0 +1,14 @@
+Q- What does HTML stand for?
+
+=> Hypertext Markup Language
+HTML stands for Hypertext Markup Language. It is the standard markup language used to create and structure content on the web.
+
+
+
+Q- In JavaScript, the process by which the browser decides which objects to trigger event handlers on is?
+
+=> Event propagation
+Event propagation is the process by which the browser decides which objects to trigger event handlers. 
+Event propagation is a way to describe the “stack” of events that are fired in a web browser.
+
+
