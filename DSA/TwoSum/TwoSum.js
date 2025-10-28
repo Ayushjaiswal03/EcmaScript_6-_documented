@@ -7,7 +7,7 @@ var twoSum = function(nums, target) {
      // 2. Loop through the array only once (O(n)).                            
     for(let i = 0; i < nums.length ; i++) {
         const compliment = target - nums[i];    // Calculate the value needed to reach the target.
-        console.log(compliment);
+        // console.log(compliment);
 
 
         if(map.has(compliment)) {              //The has() method returns true if a key exists in a map:
@@ -25,4 +25,20 @@ var twoSum = function(nums, target) {
 
 nums = [2,7,11,15]
 target = 9
-console.log(twoSum(nums, target));
+// console.log(twoSum(nums, target));
+
+
+
+
+
+//--------------------------------------------------------2nd way -------------------------------------------------------------
+
+var twoSum = function(nums, target) {
+  for (let i = 0; i < nums.length; i++) {                //Outer loop → picks the first number.
+    for (let j = i + 1; j < nums.length; j++) {          //Inner loop → checks all numbers after it.
+      if (nums[i] + nums[j] === target) {
+        return [i, j];                                  //As soon as a match is found, return the pair.
+      }
+    }
+  }
+};
