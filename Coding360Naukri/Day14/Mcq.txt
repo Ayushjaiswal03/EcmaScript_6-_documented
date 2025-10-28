@@ -31,3 +31,10 @@ In event-driven programming, a handler (also known as an event handler or callba
 Events can be user interactions (e.g., clicks, keypresses) or other actions like data loading, timeouts, etc. 
 For example, if you have a button on a webpage and you want to perform a certain action when the button is clicked, 
 you would attach a click event handler to that button. The handler function will only be invoked when the user clicks the button (the specified event). Similarly, different events (e.g., mouseover, form submission, etc.) can have their own corresponding handlers, and they will be invoked when their respective events occur.
+
+
+
+
+Q- Which of the following does not count in the total width of the element in the web page in HTML?
+
+=> margin
