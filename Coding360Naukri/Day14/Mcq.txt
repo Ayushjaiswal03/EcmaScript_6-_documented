@@ -12,3 +12,10 @@ Event propagation is the process by which the browser decides which objects to t
 Event propagation is a way to describe the “stack” of events that are fired in a web browser.
 
 
+
+
+Q- Where in an HTML document is the correct place to refer to an external style sheet?
+
+=> In the <head> section
+The correct place to refer to the external style sheet in an HTML document is inside the head section. 
+The head section locates at the topmost part of the HTML document, and it's where you add the external style sheet code to access the CSS file from which you can use it to apply the stylings to an HTML web page.
