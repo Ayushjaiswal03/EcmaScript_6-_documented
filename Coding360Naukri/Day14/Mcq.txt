@@ -19,3 +19,15 @@ Q- Where in an HTML document is the correct place to refer to an external style 
 => In the <head> section
 The correct place to refer to the external style sheet in an HTML document is inside the head section. 
 The head section locates at the topmost part of the HTML document, and it's where you add the external style sheet code to access the CSS file from which you can use it to apply the stylings to an HTML web page.
+
+
+
+
+Q- When will the browser invoke the handler?
+
+=> Specified event occurs
+The browser will invoke the handler when a specified event occurs. 
+In event-driven programming, a handler (also known as an event handler or callback function) is a piece of code that is executed in response to a particular event being triggered. 
+Events can be user interactions (e.g., clicks, keypresses) or other actions like data loading, timeouts, etc. 
+For example, if you have a button on a webpage and you want to perform a certain action when the button is clicked, 
+you would attach a click event handler to that button. The handler function will only be invoked when the user clicks the button (the specified event). Similarly, different events (e.g., mouseover, form submission, etc.) can have their own corresponding handlers, and they will be invoked when their respective events occur.
