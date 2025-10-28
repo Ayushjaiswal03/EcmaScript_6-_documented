@@ -27,3 +27,11 @@ Q- Which of the following is used to open document in new window / Tab in HTML?
 
 => <a target=”_blank”>Link</a>
 When we use __blank for the target, the document opens in the new tab.
+
+
+
+
+Q- Which HTML element is used to embed an interactive map in a webpage?
+
+=> <iframe>
+The < iframe > element is commonly used to embed interactive maps, such as Google Maps, in web pages.
