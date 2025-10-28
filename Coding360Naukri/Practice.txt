@@ -17,4 +17,19 @@ else {
     console.log("false")
 }
 
-=> 
+=> true
+typeof(a) return undefined as a String and a non-empty string returns true
+
+
+
+Q- What should be printed on the console for the following JavaScript statement?
+
+var obj = {};
+function A() { return obj; }
+function B() { return obj; }
+console.log( new A() == new B() );
+
+=> true
+The statement new A() will make a new object of ‘A’ and call the constructor of object ‘A’, which will return var obj. 
+Similarly the statement new B() will make a new object of ‘B’ and call the constructor of object ‘B’, which will return var obj. 
+Hence console.log( new A() == new B() ); will print true in the console.
