@@ -42,3 +42,14 @@ var twoSum = function(nums, target) {
     }
   }
 };
+
+
+
+
+
+//--------------------------------------------------------3rd Way -------------------------------------------------------------
+
+var twoSum = function(nums, target) {
+    const arr = nums.map((val, idx) => [val, idx])             //The map() method creates a new array by performing a function on each array element.
+
+}
