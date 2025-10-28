@@ -19,3 +19,11 @@ Q- What is the correct syntax for writing ‘doctype’ in HTML5?
 
 => All of the above
 doctype declaration is case insensitive.
+
+
+
+
+Q- Which of the following is used to open document in new window / Tab in HTML?
+
+=> <a target=”_blank”>Link</a>
+When we use __blank for the target, the document opens in the new tab.
