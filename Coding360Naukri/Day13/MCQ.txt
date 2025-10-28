@@ -1,0 +1,5 @@
+Q-  How do you create a comment in HTML?
+
+=> <!-- Comment -->
+HTML comments are enclosed within < !-- and -->. 
+These comments are not displayed in the browser and are used for adding notes or explanations within the code.
