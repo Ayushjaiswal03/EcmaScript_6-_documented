@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gradient-square {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.radial-gradient {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    background: radial-gradient(blue, green);
+}
+
+.radial-gradient-percentage {
+     width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    background: radial-gradient(blue 50%, green 50%);
+}
