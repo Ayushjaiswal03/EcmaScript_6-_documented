@@ -1,0 +1,20 @@
+What is DSA?
+
+DSA stands for Data Structures and Algorithms.
+
+It’s like learning how to organize information (Data Structures) and solve problems efficiently (Algorithms).
+
+🧱 1. DATA STRUCTURES — “How we store data”
+
+These are containers or ways to organize and manage data so that it’s easy to use.
+
+Think of them like tools in a toolbox — each good for a specific job.
+
+Type	Example	Real-World Analogy	What it’s used for
+Array	[1, 2, 3, 4]	Like a row of boxes	Storing fixed-size lists
+Linked List	Nodes connected like a chain	Like a treasure hunt (one leads to next)	Dynamic lists, insert/delete fast
+Stack	LIFO (Last In, First Out)	A stack of plates — take the top one first	Undo/Redo, function calls
+Queue	FIFO (First In, First Out)	A line at a ticket counter	Scheduling, message queues
+Hash Map (Object / Map)	{key: value}	Like a dictionary	Fast search, caching
+Tree	Nodes connected hierarchically	Family tree	Folder structure, UI hierarchy
+Graph	Network of nodes	Google Maps	Social networks, routes
