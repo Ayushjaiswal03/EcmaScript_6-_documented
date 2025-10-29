@@ -4,6 +4,10 @@ DSA stands for Data Structures and Algorithms.
 
 It’s like learning how to organize information (Data Structures) and solve problems efficiently (Algorithms).
 
+
+
+
+
 🧱 1. DATA STRUCTURES — “How we store data”
 
 These are containers or ways to organize and manage data so that it’s easy to use.
@@ -18,3 +22,19 @@ Queue	FIFO (First In, First Out)	A line at a ticket counter	Scheduling, message 
 Hash Map (Object / Map)	{key: value}	Like a dictionary	Fast search, caching
 Tree	Nodes connected hierarchically	Family tree	Folder structure, UI hierarchy
 Graph	Network of nodes	Google Maps	Social networks, routes
+
+
+
+
+⚙️ 2. ALGORITHMS — “How we solve problems”
+
+An algorithm is just a step-by-step method to solve a problem.
+
+Type	Example	What it does
+Sorting	Bubble Sort, Merge Sort	Arrange data in order
+Searching	Linear Search, Binary Search	Find something in a list
+Recursion	Function calling itself	Used in backtracking, trees
+Divide & Conquer	Merge Sort, Quick Sort	Break problem into parts
+Dynamic Programming	Fibonacci, Knapsack	Reuse previous results to save time
+Greedy Algorithms	Coin change, Huffman	Make best choice at each step
+Graph Algorithms	BFS, DFS, Dijkstra	Traverse or find paths in networks
