@@ -38,3 +38,27 @@ Divide & Conquer	Merge Sort, Quick Sort	Break problem into parts
 Dynamic Programming	Fibonacci, Knapsack	Reuse previous results to save time
 Greedy Algorithms	Coin change, Huffman	Make best choice at each step
 Graph Algorithms	BFS, DFS, Dijkstra	Traverse or find paths in networks
+
+
+
+
+3. In JavaScript
+
+Even though JS is mainly used for web apps, you can practice DSA easily using:
+
+let arr = [1, 2, 3]; // Array
+let stack = []; // Stack
+let queue = []; // Queue
+let map = new Map(); // Hash Map
+let set = new Set(); // Unique values
+
+
+And algorithms are just logic on top of them:
+
+// Example: Find max number
+let arr = [2, 8, 5, 1];
+let max = arr[0];
+for (let num of arr) {
+  if (num > max) max = num;
+}
+console.log(max); // 8
