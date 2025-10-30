@@ -1,0 +1,43 @@
+Traingle Area Calculator - Part 1
+Moderate
+0/80
+Average time to solve is 40m
+Interactive HTML
+Problem statement
+
+Traingle Area Calculator - Part 1
+
+Unleash Your Creativity! Discover the simplicity of geometry with our Triangle Area Calculator – just input all the sides of traingle, and unveil the area in a single click!.
+
+Welcome, developers! Embark on a simple yet exciting journey to effortlessly compute the area of any triangle. Just enter the units of all the three sides, and let our intuitive calculator do the rest. Perfect for students, educators, and anyone with a curiosity for geometry. Dive into the world of triangles with us and discover the ease of calculating areas like never before!
+
+
+Task for students
+
+Must to have
+There should be a form tag with id "triangleForm".
+Inside the form tag with id "triangleForm" there should be three labels with for attribute as "sideA", "sideB", "sideC" respectively.
+Inside the form tag with id "triangleForm" below each label there should be input with id "sideA", "sideB", "sideC" respectively and all the inputs should have type as number and "required" attribute in each.
+Inside the form tag with id "triangleForm" there should be button inside of the form with type as "button" , content as "Calculate Area" and on click it should trigger a function named "calculateArea()"
+Outside the form there should be a div id "result".
+
+UI reference
+Use the given provided code and try to mirror the UI.
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers!
+
+HTML
