@@ -1,0 +1,4 @@
+Q- What does console.log() do in JavaScript?
+
+=> Outputs text to the console
+The console.log() function is used to output information to the browser's console, typically for debugging purposes.
