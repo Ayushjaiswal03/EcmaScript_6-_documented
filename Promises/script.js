@@ -13,7 +13,18 @@
 
 console.log("Hello three");
 
-let p = new Promise((resolve, reject) => {
+let p1 = new Promise((resolve, reject) => {
+    console.log('promise is pending')
+    setTimeout(() => {
+        console.log('I am a promise and I am fullfilled');
+        resolve(true)
+        // reject(new Error('I am an error'))
+    }, 5000)
+})
+
+console.log(p1);
+
+let p2 = new Promise((resolve, reject) => {
     console.log('promise is pending')
     setTimeout(() => {
         console.log('I am a promise and I am fullfilled');
@@ -22,4 +33,12 @@ let p = new Promise((resolve, reject) => {
     }, 5000)
 })
 
-console.log(p);
+console.log(p2);
+
+p1.then((value) => {
+    console.log(value)
+})
+
+p2.catch((error) => {
+    console.log(`some error occured in p2 which was ${error}`)
+})
