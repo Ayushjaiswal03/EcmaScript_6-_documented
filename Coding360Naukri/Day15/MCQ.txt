@@ -2,3 +2,11 @@ Q- What does console.log() do in JavaScript?
 
 => Outputs text to the console
 The console.log() function is used to output information to the browser's console, typically for debugging purposes.
+
+
+
+
+Q- How can you make a numbered list in HTML?
+
+=> <ol>
+The < ol > tag is used to create an ordered (numbered) list in HTML.
