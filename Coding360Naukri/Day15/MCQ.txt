@@ -18,3 +18,13 @@ Q- Which of the following number object function returns the value of the number
 
 => valueOf( )
 The method " valueOf()" returns the value of the parameter that was passed in it.
+
+
+
+Q- How is everything treated in HTML DOM?
+
+=> Node
+Explanation: The HTML DOM model is constructed as a tree of Objects. 
+In the HTML DOM (Document Object Model), everything is a node: The document itself is a document node. 
+All HTML elements are element nodes. All HTML attributes are attribute nodes. Text inside HTML elements are text nodes. 
+Comments are comment nodes.
