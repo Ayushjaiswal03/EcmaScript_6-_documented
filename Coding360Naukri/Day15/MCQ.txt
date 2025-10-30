@@ -10,3 +10,11 @@ Q- How can you make a numbered list in HTML?
 
 => <ol>
 The < ol > tag is used to create an ordered (numbered) list in HTML.
+
+
+
+
+Q- Which of the following number object function returns the value of the number in JavaScript?
+
+=> valueOf( )
+The method " valueOf()" returns the value of the parameter that was passed in it.
