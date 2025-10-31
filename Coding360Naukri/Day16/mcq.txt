@@ -20,3 +20,29 @@ None of the above
 
 
 => All of the above
+
+
+
+
+
+
+Q-  What will be the output of the JavaScript code below?
+
+function Abc() {
+"use strict"
+this.a = 25;
+return {a: 35, b: 44};
+}
+var obj = new Abc();
+console.log(obj.a, obj.b);
+
+=> 35 44
+The statement ‘ new Abc(); ’ will make a new object of ‘Abc’ and call the constructor of ‘Abc’, then in the constructor the statement ‘ return {a: 35, b: 44}; ’will return a new object which would get stored in var obj. Thus on printing obj.a and obj.b will print 35 and 44.
+
+
+
+
+Q-  Which HTML5 tag is used to play audio files?
+
+=> <audio>
+The < audio > element allows embedding and playback of audio files directly in web pages.
