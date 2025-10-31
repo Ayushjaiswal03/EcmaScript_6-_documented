@@ -1,0 +1,4 @@
+Q-   How do you center-align text in CSS?
+
+=> text-align: center;
+The text-align property in CSS, when set to center, aligns the text horizontally in the center of its container.
