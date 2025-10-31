@@ -46,3 +46,9 @@ Q-  Which HTML5 tag is used to play audio files?
 
 => <audio>
 The < audio > element allows embedding and playback of audio files directly in web pages.
+
+
+
+Q-  Which method in a React Component should you override to stop the component from updating?
+
+=> shouldComponentUpdate
