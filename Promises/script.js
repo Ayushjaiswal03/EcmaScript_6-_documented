@@ -42,3 +42,5 @@ p1.then((value) => {
 p2.catch((error) => {
     console.log(`some error occured in p2 which was ${error}`)
 })
+
+console.log(1 - '1')
