@@ -28,3 +28,10 @@ Q-  Which of the following statements is/are true about event delegation in java
 
 => 1,3,4
 Further Readings: https://dmitripavlutin.com/javascript-event-delegation/
+
+
+
+Q- Which of the following statement is true in the case of the property of the JSON() method?
+
+=> A JSON() method is invoked automatically by the JSON.stringify() method
+B is the correct option. The JSON() method is most commonly used to exchange data to/from a web server. When we send data to a web server, the data has to be a string. In this case, json.strigify() is used to convert a JavaScript object into a string.
