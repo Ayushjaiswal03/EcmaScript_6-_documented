@@ -1,0 +1,4 @@
+Q-  How do you make text bold in CSS?
+
+=> font-weight: bold;
+The font-weight property in CSS is used to set the thickness or boldness of the text. Setting it to bold will make the text appear bold.
