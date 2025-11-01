@@ -9,3 +9,8 @@ Q-  What will the below JavaScript line print on the console?
 console.log(1 - '1')
 
 => 0
+
+
+Q- Which keyword creates a constant in JavaScript?
+
+=> const
