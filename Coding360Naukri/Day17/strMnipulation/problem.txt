@@ -1,0 +1,38 @@
+Problem statement
+
+Problem statement
+
+The split() method in JavaScript is used to divide a string into an ordered list of substrings, places these substrings into an array, and returns the array.
+
+Welcome, developer! Your task is to complete the generateArrayOfString method and use the split method of string to convert string into array of string.
+
+
+Task for students
+
+Must to have
+complete a method named generateArrayOfString.
+Functionality tested
+method should generate an array of string, from the paragraph written into the textarea.
+use element having id 'result' to display the array of string in a similar way that said here, 'Lorem ipsum dolor sit amet.' to '[Lorem,ipsum,dolor,sit,amet.]'
+
+UI reference
+Use the given provided code and try to mirror the UI.
+
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers!
+
