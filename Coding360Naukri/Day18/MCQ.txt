@@ -1,0 +1,4 @@
+Q - What property controls the space between lines of text in CSS?
+
+=> line height
+The line-height property in CSS is used to control the space between lines of text, also known as leading.
