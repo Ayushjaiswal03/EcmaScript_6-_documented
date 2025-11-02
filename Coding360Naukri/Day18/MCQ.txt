@@ -29,3 +29,10 @@ Q - What is the autofocus attribute in an < input > tag used for?
 
 => To automatically focus the input field when the page loads
 The autofocus attribute directs the browser to focus the input field as soon as the page is loaded.
+
+
+
+Q - Can the element <h1> be replaced with <H1> in HTML?
+
+=> Yes, both are same
+Explanation: Tags are case insensitive.
