@@ -8,3 +8,17 @@ Q - In the context of event propagation, what happens when event.preventDefault(
 
 => It prevents the default action associated with the event.
 The preventDefault() method cancels the browser's default behavior for the event, such as navigating to a link's href or submitting a form.
+
+
+
+Q - Which of these options will return ‘5’ as output for the following code?
+
+function foo(a){
+    function faa(b){
+        return a+b;
+}
+return faa;
+}
+
+=> foo(2)(3);
+The correct way of calling a nested function is option c.
