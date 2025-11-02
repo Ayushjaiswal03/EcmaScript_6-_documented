@@ -2,3 +2,9 @@ Q - What property controls the space between lines of text in CSS?
 
 => line height
 The line-height property in CSS is used to control the space between lines of text, also known as leading.
+
+
+Q - In the context of event propagation, what happens when event.preventDefault() is called?
+
+=> It prevents the default action associated with the event.
+The preventDefault() method cancels the browser's default behavior for the event, such as navigating to a link's href or submitting a form.
