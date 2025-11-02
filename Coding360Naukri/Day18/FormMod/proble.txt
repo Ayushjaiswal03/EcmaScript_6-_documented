@@ -1,0 +1,54 @@
+ Dynamic Form Builder - Part 1
+Hard
+0/120
+Average time to solve is 60m
+Structured HTML
+CSS styling
+JS DOM & events
+Problem statement
+
+Dynamic Form Builder - Part 1
+
+Streamline your data collection with our dynamic form builder.
+
+Welcome, developers! Your task is to create a dynamic form builder that simplifies form creation and enhances user experience, catering to diverse data collection needs with ease and efficiency.
+
+
+Task for students
+
+Must to have
+The id and type, of the input box where you put the name of the form, should be "formName" and "text" respectively.
+The value of the Text Field option should be "text".
+The value of the checkbox option should be "checkbox".
+The value of the radio option should be "radio".
+The id of the Add Field button should be "addField".
+The id of the Save Form button should be "saveForm".
+The id of the div where you will display the forms should be "formsContainer".
+When you press the Add Field button, there should pop-up the alert with "Your field in the form is added successfully"
+Functionality tested
+Should be able to take input in all the fields.
+Should be able to Add filed on pressing Add Field button.
+Should show the particular alert on pressinng Add Field button.
+Should be able to save the form on the pressing Save Form button.
+Should be able to update the form after saving it.
+Should be abe to select the requirred text field options.
+
+UI reference & demo
+Use the given provided code and try to mirror the UI.
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers! We are eager to see your dynamic form builder!
