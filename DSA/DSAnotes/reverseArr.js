@@ -43,6 +43,26 @@ function reverseInPlace(nums) {
 }    
 
 
+// 🔍 Destructuring Swap
+
+// Instead of using a temporary variable (tmp), we can use ES6 array destructuring:
+
+// [a, b] = [b, a];
+
+
+// So this:
+
+// const tmp = nums[left];
+// nums[left] = nums[right];
+// nums[right] = tmp;
+
+
+// is exactly the same as
+
+// [nums[left], nums[right]] = [nums[right], nums[left]];
+
+
+
 
 function reverseInPlace2(nums){
     let right = nums.length - 1 , left = 0;
