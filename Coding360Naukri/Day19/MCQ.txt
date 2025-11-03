@@ -1,4 +1,23 @@
-What property is used to add space around elements?
+Q- What property is used to add space around elements?
 
 => margin
 The margin property in CSS is used to create space around elements, outside of any defined borders.
+
+
+Q - What is the expected JavaScript output?
+
+var add = (function ( ) {
+  var counter = 0;
+  return function ( ) {
+       counter += 1; 
+       return counter;
+}
+})();    
+console.log(add());
+console.log(add());
+console.log(add());
+
+=> 1, 2, 3
+Hint : Self Invoking Functions are used Explanation: 
+The function that IIFE is returning contains the lexical context of the IIFE, and it's stored in ‘add’. 
+It gets invoked 3 times, and each time the counter is updated in the same lexical context.
