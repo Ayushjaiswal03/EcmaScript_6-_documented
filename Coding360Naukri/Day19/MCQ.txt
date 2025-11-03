@@ -1,0 +1,4 @@
+What property is used to add space around elements?
+
+=> margin
+The margin property in CSS is used to create space around elements, outside of any defined borders.
