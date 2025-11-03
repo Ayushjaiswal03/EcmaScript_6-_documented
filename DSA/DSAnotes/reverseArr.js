@@ -24,3 +24,37 @@ console.log("Reverse an Array")
 // return nums
 
 
+// 1 => 
+
+function reverseInPlace(nums) {
+    let left = 0;
+    let right = nums.length - 1;
+
+    while(left < right ){
+        const temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
+
+        left++ ;
+        right-- ;
+    }
+
+    return nums;
+}    
+
+
+
+function reverseInPlace2(nums){
+    let right = nums.length - 1 , left = 0;
+    while(left < right) {
+        [nums[left], nums[right]] = [nums[right], nums[left]]
+        left++;
+        right--
+    }
+    return nums;
+}
+
+
+
+console.log(reverseInPlace2([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+    
