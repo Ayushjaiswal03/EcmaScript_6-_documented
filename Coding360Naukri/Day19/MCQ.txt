@@ -21,3 +21,11 @@ console.log(add());
 Hint : Self Invoking Functions are used Explanation: 
 The function that IIFE is returning contains the lexical context of the IIFE, and it's stored in ‘add’. 
 It gets invoked 3 times, and each time the counter is updated in the same lexical context.
+
+
+
+Q - What is the primary role of the "return( )" statement in a function body in JavaScript?
+
+=> It returns the value and stops executing the function
+In general, the "return" statement is the last statement in the body of function if the function is return-type. 
+Whenever the return statement gets encountered in the definition of the function, the execution of the function will stop, and it returns the stored value to the statement where the function call has been made.
