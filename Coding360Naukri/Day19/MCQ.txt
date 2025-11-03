@@ -44,3 +44,18 @@ person.hasOwnProperty(property)
 Where does this function in JavaScript come from?
 
 => From Object’s prototype
+
+
+
+
+Q - What will the below code produce on the console?
+
+var a;
+if( typeof(a) ) {
+    console.log("true")
+}
+else {
+    console.log("false")
+}
+=> true
+typeof(a) return undefined as a String and a non-empty string returns true
