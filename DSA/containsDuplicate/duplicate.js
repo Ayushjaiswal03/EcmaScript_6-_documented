@@ -43,5 +43,30 @@ function containsDuplicate(nums) {
     }
     return false
 }
-console.log(containsDuplicate([1,2, 3, 4, 5, 1]))
-//
+
+// WARNING   compare every pair → O(n²). Simple but slow.
+// Time Limit Exceed
+
+
+
+//                    Sort & check neighbors: sort array → O(n log n), then one pass to check adjacent elements.
+
+// sort(nums)
+// for i in 0..nums.length-1
+// if nums[i] === nums[i +1]
+// return true
+
+// let arr = [21, 1, 20, 18, 2, 3, 4, 5, 6]
+//  arr1 = arr.slice().sort((a, b) => a - b);
+// console.log(arr1)
+
+function containsDuplicateSort(nums) {
+    nums = nums.slice().sort((a, b) => a - b)
+    for(let i = 0; i < nums.length; i++){
+        if(nums[i] === nums[i + 1]) return true
+    }
+    return false
+}
+
+console.log(containsDuplicateSort([1,2, 3, 4, 5, 1]))
+
