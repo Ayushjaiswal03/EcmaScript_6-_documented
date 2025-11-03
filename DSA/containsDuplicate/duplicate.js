@@ -68,5 +68,35 @@ function containsDuplicateSort(nums) {
     return false
 }
 
-console.log(containsDuplicateSort([1,2, 3, 4, 5, 1]))
 
+// Sorting is another option — after sorting duplicates become adjacent, but sort costs O(n log n).
+
+
+
+
+
+//         HashSet: single pass, record seen values, if value already seen → duplicate found → O(n) time, O(n) space.
+
+// Why Set usually? Because it gives a simple O(n) time & O(n) space solution that’s optimal for this problem.
+
+
+
+//        PseudoCode
+// create empty set seen
+// for each x in nums
+// if seen has x: return true
+// add x to seen
+// return false
+
+
+function containsDuplicateSet(nums) {
+    let seen =  new Set();
+    for( let x of nums){
+        if (seen.has(x)) return true
+        seen.add(x);
+    }
+    return false
+}
+
+
+console.log(containsDuplicateSet([2, 3, 4, 1, 5, 1]))
