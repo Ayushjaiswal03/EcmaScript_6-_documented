@@ -75,8 +75,29 @@ function findMax2(nums) {
 const arr = [3, 2, 4, 12, 11, 13, 5];
 const max = Math.max(...arr);
 
-console.log(max);
+// console.log(max);
+
+
+// ✅ Why it’s good:
+
+// Clean and concise
+
+// Perfect for small arrays
+
+// ⚠️ But:
+// Spread operator (...arr) makes a copy → for very large arrays, this can cause performance or memory issues.
 
 
 
+//                                              3. Using reduce() (Functional Approach)
 
+function findMax3(nums) {
+    let max1 = nums.reduce((acc, x) => {
+        console.log(acc, x);
+         return acc < x ? x : acc;
+    }, nums[0])
+    
+   return max1;
+}
+
+console.log(findMax3([3, 2, 4, 12, 11, 13, 5]))
