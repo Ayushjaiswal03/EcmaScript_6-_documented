@@ -29,3 +29,18 @@ Q - What is the primary role of the "return( )" statement in a function body in 
 => It returns the value and stops executing the function
 In general, the "return" statement is the last statement in the body of function if the function is return-type. 
 Whenever the return statement gets encountered in the definition of the function, the execution of the function will stop, and it returns the stored value to the statement where the function call has been made.
+
+
+Q - Suppose there is a class 'Person' and an object 'person' is created as follows -
+
+class Person = {
+constructor(name) { this.name = name; }
+…… Other methods …..
+} 
+var person = new Person("James");
+The below statement returns true or false if a property is present in the person object -
+
+person.hasOwnProperty(property)
+Where does this function in JavaScript come from?
+
+=> From Object’s prototype
