@@ -49,6 +49,10 @@ Output: [1, 3, 12, 0, 0]
 //      append 0 to result
 // return result
 
-function moveZeroesExtraSpace(nums) {
-    let zeroCount = 0;
-}
+// function moveZeroesExtraSpace(nums) {
+//     let zeroCount = 0;
+// }
+
+let a = 710.7
+let b = Math.floor(a);
+console.log(b)
