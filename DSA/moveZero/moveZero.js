@@ -48,3 +48,7 @@ Output: [1, 3, 12, 0, 0]
 // for i in range(zeroCount)
 //      append 0 to result
 // return result
+
+function moveZeroesExtraSpace(nums) {
+    let zeroCount = 0;
+}
