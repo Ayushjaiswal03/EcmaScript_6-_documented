@@ -101,13 +101,12 @@ function addTwoNumbers (nums, target) {
       let compliment = target - nums[i]
       // console.log(compliment)
       if(map.has(compliment)) {
-        return [map.get(compliment, i)]
-      }else{
-        map.set(nums[i], i)
+        return [map.get(compliment), i]
       }
-      
-      return [i, i]
+      map.set(nums[i], i)
     }
+
+    return [];
     
 }
 
