@@ -86,3 +86,29 @@ var twoSum = function(nums, target) {
 // console.log(twoSum(nums, target));
 
 // Practice  
+
+
+// Given an array of integers and a target, return indices of the two numbers that add up to the target.
+
+
+// arr of integer, x
+// 
+
+function addTwoNumbers (nums, target) {
+    let map = new Map();
+
+    for(let i = 0; i < nums.length; i++){
+      let compliment = target - nums[i]
+      // console.log(compliment)
+      if(map.has(compliment)) {
+        return [map.get(compliment, i)]
+      }else{
+        map.set(nums[i], i)
+      }
+      
+      return [i, i]
+    }
+    
+}
+
+console.log(addTwoNumbers([2,7,8,5], 9))
