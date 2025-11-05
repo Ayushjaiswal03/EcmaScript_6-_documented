@@ -1,0 +1,24 @@
+var productExceptSelf = function(nums) {
+    let n = nums.length;
+    let res = Array(n).fill(1);
+    // console.log(res);
+
+    let prefix = 1
+    for(let i = 0; i <= n-1; i++){
+        res[i] = prefix;
+        prefix *= nums[i]
+    }
+    // console.log(res)
+
+    let suffix = 1
+    for(let i = n-1; i >= 0; i--){
+        res[i] *= suffix;
+        suffix *= nums[i]
+    }
+    // console.log(res)
+
+    return res
+}
+
+
+console.log(productExceptSelf([1,2,3,4]))
