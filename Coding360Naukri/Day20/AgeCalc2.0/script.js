@@ -17,4 +17,6 @@ document.getElementById("btn").addEventListener('click', function () {
     if(monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
         age --;
     }
+
+    result.innerText = age.toString();
 })
