@@ -1,0 +1,36 @@
+Problem statement
+
+CSS ::first-line pseudo-element
+The ::first-line pseudo-element is used to apply styles specifically to the first line of a block-level element.
+
+Initial CSS for this problem is already written for you. Your task in this problem is to style the first line of the <p> tag as per the instructions.
+
+S. no	Problem
+1	ensure using ::first-line pseudoelement that first line has a certain color & font-weight
+INSTRUCTIONS
+CSS Selector	CSS Style
+p::first-line	color : #007bff
+font-weight:bold
+
+
+
+- Final
+
+
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers!
