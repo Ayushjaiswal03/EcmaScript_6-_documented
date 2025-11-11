@@ -110,4 +110,19 @@ function addTwoNumbers (nums, target) {
     
 }
 
-console.log(addTwoNumbers([2,7,8,5], 9))
+// console.log(addTwoNumbers([2,7,8,5], 9))
+
+
+function groupAnagrams(strs) {
+  const map = new Map();
+
+  for (let word of strs) {
+    const key = word.split('').sort().join('');
+    console.log(key)
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(word);
+  }
+
+  return Array.from(map.values());
+}
+console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]));
