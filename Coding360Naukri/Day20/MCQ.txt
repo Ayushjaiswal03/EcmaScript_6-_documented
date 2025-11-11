@@ -11,4 +11,10 @@ The background-position property specifies the initial position of the backgroun
 It accepts values like keywords (e.g., top, bottom), lengths (e.g., 10px, 50%), or combinations.
 
 
+Q- Choose the correct option
+
+console.log( 5 + "3" ) ;
+console.log( 5 * "3" ) ;
+
+=> 53 , 15
 
