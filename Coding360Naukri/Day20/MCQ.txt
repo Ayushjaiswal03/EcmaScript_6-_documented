@@ -1,3 +1,14 @@
-What keyword is used to create a constant in JavaScript?
+Q- What keyword is used to create a constant in JavaScript?
 
-=> The const keyword is used to declare a constant in JavaScript, meaning the variable's value cannot be reassigned.
+=> const
+The const keyword is used to declare a constant in JavaScript, meaning the variable's value cannot be reassigned.
+
+
+Q- Which CSS property determines how an element's background image is positioned within its container?
+
+=> background-position
+The background-position property specifies the initial position of the background image relative to the element. 
+It accepts values like keywords (e.g., top, bottom), lengths (e.g., 10px, 50%), or combinations.
+
+
+
