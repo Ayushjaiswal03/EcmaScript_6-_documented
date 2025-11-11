@@ -18,3 +18,12 @@ console.log( 5 * "3" ) ;
 
 => 53 , 15
 
+
+Q- Suppose we have a text "human" that we want to convert into string without using the "new" operator. 
+   Which is the correct way from the following to do so in context to JavaScript?
+
+=> Both human.toString( ) and String(human) 
+There are three common ways to convert the text into strings:value.toString(),"" + value and String(value). 
+We can convert a text to string without using "new" operator that are: human.tostring() and the another one is String(human).
+
+
