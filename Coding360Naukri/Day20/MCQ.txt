@@ -27,3 +27,8 @@ There are three common ways to convert the text into strings:value.toString(),""
 We can convert a text to string without using "new" operator that are: human.tostring() and the another one is String(human).
 
 
+Q- Which of the following attribute is used to provide a unique name to an element?
+
+=> id
+
+
