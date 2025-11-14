@@ -1,0 +1,53 @@
+Problem statement
+
+CSS hsl() function
+HSL (Hue, Saturation, Lightness) is a color model in CSS used to define colors based on their hue (angle on the color wheel), saturation (intensity), and lightness (brightness).
+
+Initial CSS for this problem is already written for you. Refer to the problem statment below & match the screenshots provided.
+
+S. no	Problem
+1	generate 'blue' color using CSS hsl() function.
+INSTRUCTIONS
+
+Value	Explanation
+hue	To generate a "blue" color, set the hue to 240, as blue is located at 240° on the HSL color wheel.
+saturation	Set the saturation to 100% to ensure the color is fully vivid and not muted.
+lightness	Set the lightness to 50% to create a balanced, standard blue color. Adjust higher for lighter shades or lower for darker shades.
+BELOW TABLE SHOWS INSTRUCTIONS FOR THIS PROBLEM
+CSS Selector	CSS Style
+.blue	background-color: hsl(240, 100%, 50%)
+
+
+
+
+
+- HSL Color Wheel (reference)
+
+
+
+
+- Initial
+
+
+
+
+- Final
+
+
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, develop
