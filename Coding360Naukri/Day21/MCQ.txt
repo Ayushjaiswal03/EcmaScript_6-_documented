@@ -8,3 +8,9 @@ It allows you to store data that can be accessed and manipulated throughout your
 Q- How do you call a function fetch() in JSX?
 
 => {fetch()}
+
+
+Q- Which CSS property sets an element's outer space?
+
+=> margin
+Use margin to create empty space around an element’s outer boundary.
