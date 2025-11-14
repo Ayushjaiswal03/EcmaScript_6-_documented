@@ -25,3 +25,11 @@ console.log(pi);
 => Error
 Const keyword fixes the value of the variable. Const keyword can not be redefined. 
 Therefore attempts to alter the value or re-declaration causes errors.
+
+
+
+Q- How will you make all paragraph elements 'RED' in color ?
+
+=> all of the above
+All three options will set the text color of all "p" elements to red. 
+You can choose any of these options based on your preference or coding standards.
