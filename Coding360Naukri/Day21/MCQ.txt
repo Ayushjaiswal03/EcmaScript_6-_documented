@@ -14,3 +14,14 @@ Q- Which CSS property sets an element's outer space?
 
 => margin
 Use margin to create empty space around an element’s outer boundary.
+
+
+Q- What will be the output of the following JavaScript code?
+
+const pi=3.14;
+var pi=4;
+console.log(pi);
+
+=> Error
+Const keyword fixes the value of the variable. Const keyword can not be redefined. 
+Therefore attempts to alter the value or re-declaration causes errors.
