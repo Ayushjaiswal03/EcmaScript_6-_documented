@@ -1,0 +1,37 @@
+Problem statement
+
+Random Quote Generator - Part 2
+
+Unleash a world of inspiration with just a click using our Random Quote Generator, your go-to source for daily wisdom and motivation.
+
+Welcome, developers! Your task is to create a random quote generator that delivers powerful, thought-provoking quotes at the touch of a button.
+
+
+Task for students
+
+Must to have
+The id of the Generate Quote button should be 'quoteButton'.
+The id, of the place where quote will generate on button clicking, should be 'quote'.
+Functionality tested
+Should generate the quote on clicking Generate Quote button.
+Should generate the quote on page reloading.
+UI reference & demo
+Use the given provided code and try to mirror the UI.
+
+
+Evaluation
+After submission, your solution will be evaluated automatically based on the tasks defined above.
+Upon successful completion of all the tasks/requirements, you will get a full score, and there will not be any partial scoring.
+You can work on your failed test cases & resubmit your solution.
+Your problem will get evaluated instantly.
+
+Do’s & don’t
+Use the given code structure in editor and do not make any changes.
+Do not modify existing classes or tags.
+Focus on correct HTML structure and class names.
+
+Query & feedback
+In case of any query/feedback on this project, please fill this form & we will soon get in touch with you to resolve.
+
+Best of luck, developers! We are eager to see your random quote generator!
+
