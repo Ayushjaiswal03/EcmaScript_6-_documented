@@ -1,0 +1,4 @@
+Q- What property is used to change text color in CSS?
+
+=> color
+The color property in CSS is used to change the color of the text inside an element.
