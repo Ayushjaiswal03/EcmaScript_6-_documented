@@ -27,3 +27,9 @@ Q- Which CSS property is used to change the background color of an element?
 => background-color
 The background-color property is used to change the background color of an element in CSS.
 
+
+
+Q- What does the required attribute do in an < input > field?
+
+=> Specifies that the input field must be filled before submission
+
